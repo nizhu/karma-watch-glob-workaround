@@ -1,0 +1,17 @@
+{
+  "name": "karma-watch-glob-workaround",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizhu/karma-watch-glob-workaround.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizhu/karma-watch-glob-workaround/issues"
+  },
+  "dependencies": {
+    "glob": "^7.1.1"
+  }
+}
