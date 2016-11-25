@@ -3,7 +3,7 @@
 This script implements a workaround to the issue documented [here](https://github.com/karma-runner/karma/issues/1087).
 
 It describes an issue where
-1. the file list contains globbing patterns which resolve to contain some duplicates
+1. the file list contains globbwing patterns which resolve to contain some duplicates
 1. one of these files are changed
 1. karma watch triggers
 1. karma loads a cached version of the changed file, **ignoring the changes**
@@ -59,3 +59,7 @@ Notice that abc is still logged...
 ---
 
 Repeat the same with working.config.js and this issue should be solved!
+
+---
+
+Oddly however, [another example](reproduce/working2.config.js) with only a single recursive glob works without this workaround
